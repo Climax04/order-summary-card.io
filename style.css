@@ -1,0 +1,105 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family:'Red Hat Display', sans-serif;
+   background-color: hsl(225, 100%, 94%);
+   background-image: url(pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+    line-height: 1.4;
+}
+h2,h3{
+    padding:0;
+    margin: 0;
+}
+.wrapper{
+    max-width:450px;
+    background-color: white;
+    border-radius: 10px; 
+}
+.hero{
+    width: 450px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+.title{
+    width: 400px;
+    margin: 20px auto;
+}
+.title h2{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    
+    
+}
+.title .text{
+    margin: 20px 30px;
+    font:16px;
+    text-align: center;
+    opacity: 50%;
+}
+.cont_plan{
+    margin-bottom: 30px;
+    background-color: hsl(225, 100%, 97%);
+    padding: 24px 0;
+    border-radius: 10px;
+}
+.cont_plan .sub_plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0 30px;   
+}
+.plan{
+    display: grid;
+    font-size: 15px;   
+    margin-left: -100px;
+    font-weight: 900;
+    font-family:'Red Hat Display', sans-serif;
+}
+.plan span{
+    opacity: 30%;
+}
+.sub_plan a{
+    font-weight: bold;
+    color: blue;
+}
+.action{
+    display: grid;
+}
+button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 0;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.action a{
+    margin-top:20px;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
+.attribution{
+    font-size: 15px; 
+    margin: 30px 0;
+}
+.attribution a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;   
+}
+
